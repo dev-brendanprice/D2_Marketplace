@@ -103,8 +103,8 @@ input:focus {
 }
 
 .userDropdown {
-    margin-top: 0px;
-    margin-bottom: 2px;
+    /* margin-bottom: -50px; */
+    margin-left: 23px;
 }
 
 .header {
