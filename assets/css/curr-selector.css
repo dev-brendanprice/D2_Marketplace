@@ -122,12 +122,9 @@ body {
   border: solid 2px green;
   width: auto;
   text-align: center;
-  /* padding: 0;
-  margin: 0;
-  margin-left: 0px; */
 }
 .sl-nav2 {
-  display: inline;
+  display: flex;
 }
 .sl-nav2 ul {
   border: solid 2px red;
@@ -139,7 +136,7 @@ body {
 }
 .sl-nav2 li {
   cursor: pointer;
-  /* padding-bottom:10px; */
+  display: flex;
 }
 .sl-nav2 li ul {
   display: none;

@@ -56,7 +56,6 @@
                         <div class="sl-nav2">
                             <ul>
                                 <li id="cur2">
-
                                     <!-- Get User Icon -->
                                     <?php
                                     $encoded = md5('priceroan2@gmail.com'); // users email
@@ -64,7 +63,6 @@
                                     ?>
                                     <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
                                     <!-- End -->
-
                                     <div class="userDropdown">
                                         <div class="triangle2"></div>
                                         <ul>
