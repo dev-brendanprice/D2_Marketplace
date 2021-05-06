@@ -1,0 +1,103 @@
+/* currency & dropdown elements in curr-selector.css */
+
+.topnav>div {
+    display: inline-block;
+}
+
+.topnav {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#navContainer{
+    float: right;
+    display: absolute;
+    margin-right: 45px;
+}
+
+#navContainer{
+    border: solid 2px red;
+    width: auto;
+    float: right;
+    /* display: absolute; */
+    /* margin-right: 45px; */
+}
+
+.navRow {
+    /* display: table; */
+    /* table-layout: fixed; */
+    /* border-spacing: 10px; */
+    border: solid 2px green;
+    width: 100%;    
+    margin-top: 30px;
+}
+
+.logo {
+    float: left;
+    width: 24vh;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+/* #navColumn {
+    display: table-cell;
+    border: solid 1px black;
+} */
+
+#searchBox {
+    background-color: rgba(0, 0, 0, 0.418);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 7px;
+    margin-top: auto;
+    width: 100%;
+}
+
+#search {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+}
+
+#searchBoxEnter:hover {
+    opacity: .4;
+    transition: opacity .4s ease-out;
+    -moz-transition: opacity .4s ease-out;
+    -webkit-transition: opacity .4s ease-out;
+    -o-transition: opacity .4s ease-out;
+}
+
+#currencyColumn {
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+#userIconBox {
+    border: solid 2px black;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+/* #userIconBox {
+    position: absolute;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: -85px;
+} */
+
+#userIcon {
+    cursor: pointer;
+    width: 59%;
+    border-radius: 50px;
+}
+
+.userDropdown {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}

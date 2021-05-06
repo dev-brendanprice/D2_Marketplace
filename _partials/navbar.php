@@ -9,7 +9,7 @@
                 <div id="searchBox">
                     <form action="search">
                         <i class="fas fa-search gray"></i>
-                        <input name="q" type="text" id="search" placeholder="Search" onblur="this.placeholder = 'Search'"></input>
+                        <input name="q" type="text" id="search" placeholder="Search" onblur="this.placeholder = 'Search'">
                         <button class="fas fa-arrow-right gray" style="background-color:none; background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer; outline:none;" id="searchBoxEnter" type="submit"></button>
                     </form>
                 </div>
@@ -50,19 +50,20 @@
                 </div>
             </div>
 
-            <div id="navColumn">
+            <div id="navColumn1">
                 <div id="userIconBox">
                     <div class="nav-wrapper2">
                         <div class="sl-nav2">
                             <ul>
-                                <li id="cur2">
+                                <li>
 
                                     <!-- Get User Icon -->
                                     <?php
+                                    
                                     $encoded = md5('priceroan2@gmail.com'); // users email
                                     $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/images/default.png'); // default image
                                     ?>
-                                    <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
+                                    <img id="userIcon" width="45px" height="45px" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
                                     <!-- End -->
 
                                     <div class="userDropdown">
