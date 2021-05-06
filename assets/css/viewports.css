@@ -1,0 +1,274 @@
+/* ============================= */
+/*         MEDIA QUERIES         */
+/* ============================= */
+
+
+/* Desktop (4k@2560px) */
+@media screen and (min-width: 2560px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+
+/* Laptop Large*/
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 75%;
+    }
+    #headText {
+        font-size: 270%;
+    }
+    .aHeader2 {
+        font-size: 25px;
+    }
+    .aHeader1 {
+        font-size: 30px;
+    }
+    .aColumn {
+        height: 95px;
+    }
+    .aimg1 {
+        background-position: 25px, -30px;
+    }
+    .aimg2 {
+        background-position: 25px, -20px;
+    }
+    .aimg3 {
+        background-position: 25px, -65px;
+    }
+    .aimg4 {
+        background-position: 29px, -20px;
+    }
+    .aimg5 {
+        background-position: 29px, -20px;
+    }
+    .aimg6 {
+        background-position: 15px, -25px;
+    }
+    .aimg7 {
+        background-size: 60%, 50%;
+        background-position: -100px -2px, 530px -2px;
+    }
+    #sicons {
+        margin-top: 40px;
+    }
+    #liTop {
+        font-size: 16px;
+    }
+    #liBott {
+        font-size: 10px;
+    }
+    #riTop {
+        font-size: 16px;
+    }
+    #riBott {
+        font-size: 10px;
+    }
+    #visa {
+        margin-right: 21px;
+    }
+}
+
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 75%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+    .aHeader3 {
+        font-size: 30px;
+    }
+    .aHeader2 {
+        font-size: 20px;
+        margin-left: 110px;
+    }
+    .aHeader1 {
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .abColumn {
+        height: 110px;
+    }
+    .abButton {
+        padding-left: 20px !important;
+        padding-right: 15px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+    .aButton1, .aButton2, .aButton3, .aButton4, .aButton5, .aButton6{
+        padding-left: 20px !important;
+        padding-right: 15px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        margin-left: 130px !important;
+    }
+    .aimg1 {
+        background-size: 47%;
+        background-position: 17px -17px;
+    }
+    .aimg2 {
+        background-size: 48%;
+        background-position: 17px -11px;
+    }
+    .aimg3 {
+        background-size: 50%;
+        background-position: 17px -47px;
+    }
+    .aimg4, .aimg5 {
+        background-size: 43%;
+        background-position: 20px -13px;
+    }
+    .aimg6 {
+        background-size: 55%;
+        background-position: 6px -15px;
+    }
+    .aimg7 {
+        background-size: 65%, 55%;
+        background-position: -110px -2px, 400px -2px;
+    }
+    #fb {
+        width: 50%;
+    }
+    #twi {
+        width: 55%;
+    }
+    #dis {
+        width: 50%;
+    }
+    #titan1 {
+        margin-top: -5px;
+    }
+    #warlock2 {
+        margin-top: -25px;
+    }
+    #warlock1 {
+        margin-top: -20px;
+    }
+    #searchBox {
+        font-size: 11px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    #search {
+        font-size: 12px;
+    }
+    #userIcon {
+        width: 57%;
+    }
+    #userIconBox {
+        margin-top: 14px;
+    }
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+    #searchBox {
+        display: none;
+    }
+    #userIconBox {
+        margin-top: 14px;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-right: 50px;
+        /* border: solid 2px red; */
+    }
+}
+
+
+/* Mobile Large*/
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+        text-align: left;
+    }
+    .headerLeft {
+        display: none;
+    }
+    .headerRight {
+        width: 50%;
+        margin-top: 0px;
+        margin-left: 235px;
+        /* border: solid 2px black; */
+    }
+    .headerMiddle {
+        width: 255px;
+        padding-right: 30px;
+        padding-left: 10px;
+        margin-left: 0px;
+        /* border: solid 2px black; */
+    }
+    .logo {
+        width: 25%;
+        margin-top: -8px;
+    }
+    #userIcon {
+        width: 47%;
+    }
+    #userIconBox {
+        margin-top: -13px;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-top: -33px;
+        margin-right: 30px;
+        /* border: solid 2px red; */
+    }
+    #cc {
+        font-size: 14px !important;
+        /* border: solid 2px black; */
+    }
+    #ca {
+        font-size: 15px !important;
+        /* border: solid 2px black; */
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .headerRight {
+        position: absolute;
+    }
+}
+
+
+/* Mobile M */
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+}
+
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+}

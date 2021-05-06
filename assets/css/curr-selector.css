@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+  font-family: Arial;
+  font-family: 'Muli', sans-serif;
+}
+
+
+.nav-wrapper {
+  /* border: solid 2px green; */
+  width: 200px;
+  text-align: center;
+}
+.sl-nav {
+  display: inline;
+}
+.sl-nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+.sl-nav li {
+  cursor: pointer;
+  padding-bottom:10px;
+}
+.sl-nav li ul {
+  display: none;
+}
+.sl-nav li:hover ul {
+  position: absolute;
+  top: 45px;
+  right:-15px;
+  display: block;
+  background: #fff;
+  width: 200px;
+  padding-top: 0px;
+  z-index: 1;
+  border-radius:5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li:hover .triangle {
+  position: absolute;
+  top: 33px;
+  right: -10px;
+  z-index:10;
+  height: 14px;
+  overflow:hidden;
+  width: 30px;
+  background: transparent;
+}
+.sl-nav li:hover .triangle:after {
+  content: '';
+  display: block;
+  z-index: 20;
+  width: 15px;
+  transform: rotate(45deg) translateY(0px) translatex(10px);
+  height: 15px;
+  background: #fff;
+  border-radius:2px 0px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav li ul li {
+  position: relative;
+  text-align: left;
+  background: transparent;
+  padding: 15px 15px;
+  padding-bottom:0;
+  z-index: 2;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+.sl-nav li ul li:last-of-type {
+  padding-bottom: 15px;
+}
+.sl-nav li ul li span {
+  padding-left: 5px;
+}
+.sl-nav li ul li span:hover, .sl-nav li ul li span.active {
+  color: #146c78;
+}
+.sl-flag {
+  display: inline-block;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  width: 15px;
+  height: 15px;
+  background: #aaa;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+}
+
+.flag-gb {
+  background: url('https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg');
+  background-size: cover;
+  background-position: center center;
+}
+.flag-usa {
+    background: url('https://lipis.github.io/flag-icon-css/flags/4x3/um.svg');
+    background-size: cover;
+    background-position: center center;
+}
+.flag-ru {
+  background: url('https://lipis.github.io/flag-icon-css/flags/4x3/ru.svg');
+  background-size: cover;
+  background-position: center center;
+}
+.flag-cn {
+  background: url('https://lipis.github.io/flag-icon-css/flags/4x3/cn.svg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* USER ICON */
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+.nav-wrapper2 {
+  /* border: solid 2px green; */
+  width: auto;
+  text-align: center;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 3px;
+}
+  .sl-nav2 {
+    /* border: solid 2px black; */
+  display: inline;
+}
+.sl-nav2 ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+.sl-nav2 li {
+  cursor: pointer;
+  padding-bottom:10px;
+}
+.sl-nav2 li ul {
+  display: none;
+}
+.sl-nav2 li:hover ul {
+  position: absolute;
+  top:43px;
+  right:-15px;
+  display: block;
+  background: #fff;
+  width: 200px;
+  padding-top: 0px;
+  z-index: 1;
+  border-radius:5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav2 li:hover .triangle2 {
+  position: absolute;
+  top: 32px;
+  right: 30px;
+  z-index:10;
+  height: 14px;
+  overflow:hidden;
+  width: 30px;
+  background: transparent;
+}
+.sl-nav2 li:hover .triangle2:after {
+  content: '';
+  display: block;
+  z-index: 20;
+  width: 15px;
+  transform: rotate(45deg) translateY(0px) translatex(10px);
+  height: 15px;
+  background: #fff;
+  border-radius:2px 0px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.sl-nav2 li ul li {
+  position: relative;
+  text-align: left;
+  background: transparent;
+  padding: 15px 15px;
+  padding-bottom:0;
+  z-index: 2;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+.sl-nav2 li ul li:last-of-type {
+  padding-bottom: 15px;
+}
+.sl-nav2 li ul li span {
+  padding-left: 5px;
+}
+.sl-nav2 li ul li span:hover, .sl-nav2 li ul li span.active {
+  color: #146c78;
+}
