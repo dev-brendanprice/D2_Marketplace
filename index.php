@@ -4,10 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Google TH ingy  -->
+
+	<!-- Google API -->
 	<meta name="google-signin-client_id" content="166145593733-e55n2qulup3q6kgmnmbgttqfvtg0voai.apps.googleusercontent.com.apps.googleusercontent.com">
 
 	<title>Store - Home</title>
+
+	<!-- Embed Configs -->
 	<meta property="og:title" content="Store" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="https://cdn.surge-networks.co.uk/assets/content/icons/embed-banner.jpg" />
