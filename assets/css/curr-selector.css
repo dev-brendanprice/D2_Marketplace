@@ -123,13 +123,12 @@ body {
   text-align: center;
   margin: 0;
   margin-left: 50px;
-  margin-top: 3px;
 }
-  .sl-nav2 {
-    /* border: solid 2px black; */
+.sl-nav2 {
   display: inline;
 }
 .sl-nav2 ul {
+  border: solid 2px red;
   margin:0;
   padding:0;
   list-style: none;
