@@ -1,24 +1,26 @@
 <div class="topnav">
     <div class="navRow">
 
-        <a href="./"><img src="../../images/longtricon.png" class="logo"></a>
+        <a href="./"><img src="../../images/longtricon2.png" class="logo"></a>
 
         <div id="navContainer">
 
             <div id="navColumn">
-                <div id="searchBox">
-                    <form action="search">
-                        <i class="fas fa-search gray"></i>
-                        <input name="q" type="text" id="search" placeholder="Search" onblur="this.placeholder = 'Search'">
-                        <button class="fas fa-arrow-right gray" style="background-color:none; background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer; outline:none;" id="searchBoxEnter" type="submit"></button>
-                    </form>
+                <div id="searchColumn">
+                    <div id="searchBox">
+                        <form action="search">
+                            <i class="fas fa-search gray"></i>
+                            <input name="q" type="text" id="search" placeholder="Search" onblur="this.placeholder = 'Search'">
+                            <button class="fas fa-arrow-right gray" style="background-color:none; background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer; outline:none;" id="searchBoxEnter" type="submit"></button>
+                        </form>
+                    </div>
                 </div>
             </div>
 
             <div id="navColumn">
                 <div id="currencyColumn">
 
-                    <h1 style="color:#D5D8DC;font-family: 'Recursive', sans-serif;font-size: 28px">
+                    <span id="cFont">
                         <div class="nav-wrapper">
                             <div class="sl-nav">
 
@@ -45,13 +47,13 @@
                             </div>
                         </div>
 
-                    </h1>
+                    </span>
 
                 </div>
             </div>
 
-            <div id="navColumn1">
-                <div id="userIconBox">
+            <div id="navColumn">
+                <div id="userColumn">
                     <div class="nav-wrapper2">
                         <div class="sl-nav2">
                             <ul>

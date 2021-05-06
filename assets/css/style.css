@@ -72,10 +72,9 @@ input:focus {
 }
 
 .navRow {
-    /* display: table-cell; */
+    display: table flex;
     width: 100%;
-    /* table-layout: fixed; */
-    border-spacing: 3px;
+    border-spacing: 0px;
     margin-top: 30px;
 }
 
@@ -258,7 +257,7 @@ input:focus {
 
 .footer {
     background-color: #1e212e;
-    width: auto;
+    width: 100%;
     position: initial;
 }
 
@@ -285,12 +284,7 @@ input:focus {
     text-align: center;
     margin: auto;
     width: 50%;
-}
-
-hr.first {
-    border: 2px solid red;
-    width: 50%;
-    float: left;
+    /* border: solid 2px black; */
 }
 
 .dropbtn {
@@ -388,16 +382,20 @@ box-shadow: inset 7px 10px 12px #34374b;
 }
 
 #navContainer{
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
     float: right;
     display: absolute;
+    margin: 0;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-#userIconBox {
-    border: solid 2px black;
+#userColumn {
+    /* border: solid 1px black; */
     /* position: relative; */
     margin-top: auto;
     margin-bottom: 0px;
+    margin-left: 30px;
 }
 
 #userIcon {
@@ -405,14 +403,26 @@ box-shadow: inset 7px 10px 12px #34374b;
     cursor: pointer;
     object-fit:cover;
     margin:0;
+    border-radius: 50%;
 }
 
 #currencyColumn {
-    border: solid 1px black;
-    margin-top: auto;
-    margin-bottom: 0px;
-    margin-left: -25px;
-    margin-right: -25px;
+    display: flex;
+    /* border: solid 1px black; */
+    margin:0;
+    padding:0;
+    margin-left: 30px;
+}
+
+#cFont {
+    color:#D5D8DC;
+    font-family: 'Recursive', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#searchColumn {
+    margin: 0;
 }
 
 #searchBox {
@@ -421,8 +431,7 @@ box-shadow: inset 7px 10px 12px #34374b;
     border-radius: 5px;
     padding: 10px;
     padding-right: 4px;
-    margin-top: auto;
-    width: 100%;
+    width: auto;
 }
 
 #search {
@@ -457,14 +466,9 @@ box-shadow: inset 7px 10px 12px #34374b;
 
 #navColumn {
     display: table-cell;
+    vertical-align: middle;
     width: auto;
-    border: solid 1px green;
-}
-
-#navColumn1 {
-    display: table-cell;
-    width: auto;
-    border: solid 1px green;
+    /* border: solid 1px green; */
 }
 
 #loColumn {
@@ -575,11 +579,6 @@ box-shadow: inset 7px 10px 12px #34374b;
 }
 
 #navtitle {
-    border: solid 3px black;
-}
-
-#navtricon {
-    width: 30%;
     border: solid 3px black;
 }
 

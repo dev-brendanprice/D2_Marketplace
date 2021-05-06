@@ -166,7 +166,7 @@
     #userIcon {
         width: 57%;
     }
-    #userIconBox {
+    #userColumn {
         margin-top: 14px;
     }
 }
@@ -183,7 +183,7 @@
     #searchBox {
         display: none;
     }
-    #userIconBox {
+    #userColumn {
         margin-top: 14px;
     }
     .nav-wrapper {
@@ -226,7 +226,7 @@
     #userIcon {
         width: 47%;
     }
-    #userIconBox {
+    #userColumn{
         margin-top: -13px;
     }
     .nav-wrapper {

@@ -51,7 +51,7 @@
             </div>
 
             <div id="navColumn">
-                <div id="userIconBox">
+                <div id="userColumn">
                     <div class="nav-wrapper2">
                         <div class="sl-nav2">
                             <ul>
