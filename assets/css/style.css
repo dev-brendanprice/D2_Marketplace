@@ -72,7 +72,7 @@ input:focus {
 }
 
 .navRow {
-    /* display: table; */
+    /* display: table-cell; */
     width: 100%;
     /* table-layout: fixed; */
     border-spacing: 3px;
@@ -388,30 +388,38 @@ box-shadow: inset 7px 10px 12px #34374b;
 }
 
 #navContainer{
+    border: solid 1px yellow;
     float: right;
     display: absolute;
-    margin-right: 45px;
+    /* margin-right: 45px; */
 }
 
 #userIconBox {
     border: solid 2px black;
-    /* position: absolute; */
-    padding: 0px;
+    /* position: relative; */
+    /* padding: 0px; */
+    /* margin-bottom: -50px; */
+    /* padding-top: 10px; */
     /* padding-left: -50px; */
     /* width: 100px; */
-    margin: 0px;
-    margin-top: 0px;
-    margin-left: -85px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    /* margin-left: 85px; */
 }
 
 #userIcon {
     /* border: solid 2px black; */
     cursor: pointer;
-    width: 59%;
-    border-radius: 50px;
+    object-fit:cover;
+    /* background-size: cover; */
+    /* width: 50%; */
+    /* height: 50%; */
+    /* border-radius: 50px; */
+    /* margin-top: 50px; */
 }
 
 #currencyColumn {
+    border: solid 1px black;
     margin-top: auto;
     margin-bottom: 0px;
     margin-left: -25px;
@@ -461,7 +469,13 @@ box-shadow: inset 7px 10px 12px #34374b;
 #navColumn {
     display: table-cell;
     width: auto;
-    /* border: solid 1px red; */
+    border: solid 1px green;
+}
+
+#navColumn1 {
+    display: table-cell;
+    width: auto;
+    border: solid 1px green;
 }
 
 #loColumn {

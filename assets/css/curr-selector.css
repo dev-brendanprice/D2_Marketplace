@@ -6,7 +6,7 @@ body {
 
 
 .nav-wrapper {
-  /* border: solid 2px green; */
+  border: solid 2px green;
   width: 200px;
   text-align: center;
 }
@@ -14,8 +14,9 @@ body {
   display: inline;
 }
 .sl-nav ul {
+  border: solid 1px red;
   margin:0;
-  padding:0;
+  padding: 0;
   list-style: none;
   position: relative;
   display: inline-block;
@@ -118,11 +119,12 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Muli');
 .nav-wrapper2 {
-  /* border: solid 2px green; */
+  border: solid 2px green;
   width: auto;
   text-align: center;
+  /* padding: 0;
   margin: 0;
-  margin-left: 50px;
+  margin-left: 0px; */
 }
 .sl-nav2 {
   display: inline;
@@ -137,7 +139,7 @@ body {
 }
 .sl-nav2 li {
   cursor: pointer;
-  padding-bottom:10px;
+  /* padding-bottom:10px; */
 }
 .sl-nav2 li ul {
   display: none;
