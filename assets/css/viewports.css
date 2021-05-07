@@ -177,9 +177,6 @@
     #searchBox {
         display: none;
     }
-    #userColumn {
-        margin-top: 14px;
-    }
     .nav-wrapper {
         width: 70px !important;
         margin-right: 50px;
@@ -356,11 +353,14 @@
         width: 100%;
     }
     #headText {
-        font-size: 28px;
+        font-size: 35px;
     }
     .nav-wrapper {
         width: 70px !important;
-        margin-right: 50px;
+        margin-right: 30px;
         /* border: solid 2px red; */
+    }
+    #userColumn {
+        margin-left: 0px;
     }
 }

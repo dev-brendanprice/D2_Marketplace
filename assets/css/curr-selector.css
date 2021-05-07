@@ -8,6 +8,7 @@ body {
 .nav-wrapper {
   /* border: solid 1px green; */
   width: auto;
+  /* margin-right: 10px; */
   text-align: center;
 }
 .sl-nav {

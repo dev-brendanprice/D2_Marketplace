@@ -124,13 +124,11 @@ input:focus {
 }
 
 .userDropdown {
-    /* margin-bottom: -50px; */
-    margin-left: 23px;
+    margin: 0;
 }
 
 .header {
     font-family: UniSansHeavy;
-    /* font-size: 50px; */
     text-align: center;
     margin: auto;
     margin-top: 70px;
@@ -423,7 +421,7 @@ box-shadow: inset 7px 10px 12px #34374b;
     /* border: solid 2px black; */
     width: 50px;
     cursor: pointer;
-    object-fit:cover;
+    /* object-fit: cover; */
     margin:0;
     border-radius: 50%;
 }
@@ -440,6 +438,8 @@ box-shadow: inset 7px 10px 12px #34374b;
     color:#D5D8DC;
     font-family: 'Recursive', sans-serif;
     font-size: 28px;
+    margin: 0;
+    padding: 0;
     font-weight: bold;
 }
 
@@ -490,6 +490,7 @@ box-shadow: inset 7px 10px 12px #34374b;
     display: table-cell;
     vertical-align: middle;
     width: auto;
+    padding: 0;
     /* border: solid 1px green; */
 }
 
