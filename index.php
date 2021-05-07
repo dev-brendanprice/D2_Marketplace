@@ -84,6 +84,8 @@
 						</div>
 					</div>
 
+					<?php require "_partials/gridx2.php"; ?> <!-- if media is =< 900px -->
+
 					<div class="row">
 						<div class="aColumn aimg1">
 							<span class="aHeader1">Raids</span><br><br>
@@ -126,8 +128,6 @@
 						</div>
 					</div>
 
-					<?php require "_partials/gridx2.php"; ?>
-
 				</div>
 			</div>
 
@@ -142,5 +142,3 @@
 	<noscript>Uh Oh! Sorry, it seems your web browser doesn't use JavaScript, This website won't work as normal. Please use another web browser or try again later...</noscript>
 
 </body>
-
-<!-- <img class="imageFadeToTop bg" src="images/nessus2.png"> -->

@@ -363,4 +363,20 @@
     #userColumn {
         margin-left: 0px;
     }
+    .button, .abButton {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-bottom: 8px !important;
+        padding-top: 8px !important;
+    }
+    .button {
+        margin-left: 300px !important;
+        margin-bottom: 10px !important;
+    }
+    .aText {
+        font-size: 12px;
+    }
+    .aHeader1 {
+        font-size: 156.25% !important;
+    }
 }
