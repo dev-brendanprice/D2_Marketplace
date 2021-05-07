@@ -1,6 +1,6 @@
 <div class="footer">
 	<div id="fBar"></div> <!-- grey bar at top -->
-	<div class="row">
+	<div class="fRow">
 
 		<div id="loColumn">
 			<div id="loContent">
