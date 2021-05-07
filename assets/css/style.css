@@ -71,6 +71,20 @@ input:focus {
     border-spacing: 10px;
 }
 
+.abRow {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.aRow {
+    display: none;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
 .navRow {
     display: table flex;
     width: 100%;
@@ -204,7 +218,7 @@ input:focus {
 
 .aHeader1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 218.75%;
     color: white;
     margin-left: 150px;
     margin-right: 0px;
@@ -213,7 +227,7 @@ input:focus {
 
 .aHeader2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 206.25%;
     color: white;
     margin-left: 150px;
     margin-right: 0px;
@@ -233,7 +247,7 @@ input:focus {
     color: white;
     font-family: MonsMed;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 75%;
 }
 
 .mid>div {
@@ -400,6 +414,7 @@ box-shadow: inset 7px 10px 12px #34374b;
 
 #userIcon {
     /* border: solid 2px black; */
+    width: 50px;
     cursor: pointer;
     object-fit:cover;
     margin:0;

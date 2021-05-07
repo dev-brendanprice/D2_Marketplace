@@ -90,7 +90,7 @@
     }
     .aHeader2 {
         font-size: 20px;
-        margin-left: 110px;
+        margin-left: 130px;
     }
     .aHeader1 {
         font-size: 25px;
@@ -162,12 +162,6 @@
     }
     #search {
         font-size: 12px;
-    }
-    #userIcon {
-        width: 57%;
-    }
-    #userColumn {
-        margin-top: 14px;
     }
 }
 
@@ -270,5 +264,103 @@
     }
     #headText {
         font-size: 28px;
+    }
+}
+
+/* ############### */
+/* All breakpoints */
+/* ############### */
+
+
+@media screen and (max-width: 1276px) {
+    .aHeader2 {
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .aHeader2 {
+        font-size: 106.25%;
+    }
+    .aHeader1 {
+        font-size: 156.25%;
+    }
+    .aColumn {
+        height: 80px !important;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .aHeader1 {
+        font-size: 143.75%;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .button {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 6.2px !important;
+        padding-top: 6.2px !important;
+    }
+    .aText {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .aHeader1 {
+        font-size: 131.25% !important;
+    }
+    .aHeader2 {
+        font-size: 93.75% !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .aHeader1 {
+        font-size: 112.5% !important;
+    }
+    .aHeader2 {
+        font-size: 81.25% !important;
+    }
+    .button, .abButton {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 5px !important;
+        padding-top: 0px !important;
+    }
+    .aText {
+        font-size: 8px;
+    }
+    .aColumn {
+        height: 80px;
+    }
+}
+
+/* grid 2x3 */
+@media screen and (max-width: 900px) {
+    .aColumn {
+        width: 25% !important; 
+    }
+    .row {
+        display: none;
+    }
+    .aRow {
+        display: table;
+    }
+    #searchBox {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-right: 50px;
+        /* border: solid 2px red; */
     }
 }

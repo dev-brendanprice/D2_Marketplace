@@ -1,7 +1,7 @@
 <div class="topnav">
     <div class="navRow">
 
-        <a href="./"><img src="../../images/longtricon2.png" class="logo"></a>
+        <a href="./"><img src="./images/longtricon2.png" class="logo"></a> <!-- change dir relative to system setup -->
 
         <div id="navContainer">
 
@@ -65,7 +65,7 @@
                                     $encoded = md5('priceroan2@gmail.com'); // users email
                                     $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/images/default.png'); // default image
                                     ?>
-                                    <img id="userIcon" width="45px" height="45px" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
+                                    <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
                                     <!-- End -->
 
                                     <div class="userDropdown">
