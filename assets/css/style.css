@@ -71,6 +71,13 @@ input:focus {
     border-spacing: 10px;
 }
 
+.aRow {
+    display: none;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
 .fRow {
     display: table;
     width: 100%;
@@ -80,13 +87,6 @@ input:focus {
 
 .abRow {
     display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 10px;
-}
-
-.aRow {
-    display: none;
     width: 100%;
     table-layout: fixed;
     border-spacing: 10px;
@@ -263,6 +263,7 @@ input:focus {
     text-align: center;
     margin-top: 90px;
     margin-bottom: 50px;
+    grid-auto-rows: 1fr;
 }
 
 .bott>div {

@@ -268,6 +268,11 @@
 /* All breakpoints */
 /* ############### */
 
+@media screen and (max-width: 1363px) {
+    #headText {
+        font-size: 41.6px;
+    }
+}
 
 @media screen and (max-width: 1276px) {
     .aHeader2 {
@@ -283,7 +288,7 @@
         font-size: 156.25%;
     }
     .aColumn {
-        height: 80px !important;
+        height: 80px;
     }
 }
 
@@ -335,10 +340,11 @@
     }
 }
 
-/* grid 2x3 */
+/* change to grid 2x3 */
 @media screen and (max-width: 900px) {
     .aColumn {
         width: 25% !important; 
+        height: 90px !important;
     }
     .row {
         display: none;
@@ -370,13 +376,76 @@
         padding-top: 8px !important;
     }
     .button {
-        margin-left: 300px !important;
+        margin-left: 0px !important;
         margin-bottom: 10px !important;
     }
-    .aText {
-        font-size: 12px;
+    .boxContent {
+        border-radius: 9px;
+        width: 50%;
+        float: right;
+        height: 95%;
     }
-    .aHeader1 {
-        font-size: 156.25% !important;
+    .aHeader1, .aHeader2 {
+        margin-left: 0px !important;
+    }
+    .aHeader3 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .aText {
+        font-size: 11px;
+    }
+    .aRaids {
+        font-size: 32px !important;
+    }
+    .aTrials {
+        font-size: 29px !important;
+    }
+    .aExotics {
+        font-size: 28px !important;
+    }
+    .aNightfalls {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+    }
+    .aDungeons {
+        font-size: 27px !important;
+        letter-spacing: 1px;
+    }
+    .aQuests {
+        font-size: 28px !important;
+    }
+    .aimg7 {
+        background-position: -120px -2px, 430px -2px;
+    }
+    .aimg1 {
+        background-size: 30%;
+        background-position: 70px -30px;
+    }
+    .aimg2 {
+        background-size: 30%;
+        background-position: 65px -20px;
+    }
+    .aimg3 {
+        background-size: 32%;
+        background-position: 65px -66px;
+    }
+    .aimg4 {
+        background-size: 30%;
+        background-position: 65px -30px;
+    }
+    .aimg5 {
+        background-size: 28%;
+        background-position: 73px -25px;
+    }
+    .aimg6 {
+        background-size: 37%;
+        background-position: 50px -35px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    #headText {
+        font-size: 34px;
     }
 }

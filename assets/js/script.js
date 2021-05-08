@@ -1,4 +1,4 @@
-const textList = ["Weapon<br>", "Armour<br>", "Levels<br>", "Content<br>"];
+const textList = ["Weapon<br>"];
 const cycle = document.querySelector("#cycle");
 let i = 0;
 const cycleText = () => {
