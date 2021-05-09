@@ -421,6 +421,30 @@
     .aHeader3 {
         font-size: 34px;
     }
+    .aimg1 {
+        background-size: 30%;
+        background-position: 70px -20px;
+    }
+    .aimg2 {
+        background-size: 30%;
+        background-position: 65px -12px;
+    }
+    .aimg3 {
+        background-size: 32%;
+        background-position: 65px -53px;
+    }
+    .aimg4 {
+        background-size: 30%;
+        background-position: 65px -20px;
+    }
+    .aimg5 {
+        background-size: 28%;
+        background-position: 73px -17px;
+    }
+    .aimg6 {
+        background-size: 37%;
+        background-position: 50px -25px;
+    }
 }
 
 /* Tablet */
@@ -436,7 +460,7 @@
     }
     .nav-wrapper {
         width: 70px !important;
-        margin-right: 50px;
+        margin-right: 30px;
         /* border: solid 2px red; */
     }
     .aimg7 {
@@ -444,24 +468,24 @@
         background-position: -170px -2px, 370px -2px;
     }
     .aimg1 {
-        background-size: 35% !important;
-        background-position: 60px -27px !important;
+        background-size: 35%;
+        background-position: 60px -27px;
     }
     .aimg2 {
-        background-size: 35% !important;
-        background-position: 60px -19px !important;
+        background-size: 35%;
+        background-position: 60px -19px;
     }
     .aimg3 {
-        background-size: 35% !important;
-        background-position: 60px -58px !important;
+        background-size: 35%;
+        background-position: 60px -58px;
     }
     .aimg4, .aimg5 {
-        background-size: 32% !important;
-        background-position: 65px -19px !important;
+        background-size: 32%;
+        background-position: 65px -19px;
     }
     .aimg6 {
-        background-size: 40% !important;
-        background-position: 50px -28px !important;
+        background-size: 40%;
+        background-position: 50px -28px;
     }
 }
 
@@ -487,6 +511,24 @@
     .aimg7 {
         background-position: -150px -2px, 330px -2px;
     }
+    .aimg1 {
+        background-position: 60px -19px;
+    }
+    .aimg2 {
+        background-position: 60px -13px;
+    }
+    .aimg3 {
+        background-position: 60px -48px;
+    }
+    .aimg4 {
+        background-position: 65px -15px;
+    }
+    .aimg5 {
+        background-position: 65px -17px;
+    }
+    .aimg6 {
+        background-position: 50px -22px;
+    }
 }
 
 @media screen and (max-width: 663px) {
@@ -495,6 +537,84 @@
     }
     .aHeader3 {
         font-size: 28px;
+    }
+    .aimg1 {
+        background-size: 40%;
+        background-position: 45px -23px;
+    }
+    .aimg2 {
+        background-size: 40%;
+        background-position: 45px -18px;
+    }
+    .aimg3 {
+        background-size: 40%;
+        background-position: 45px -54px;
+    }
+    .aimg4 {
+        background-size: 37%;
+        background-position: 50px -19px;
+    }
+    .aimg5 {
+        background-size: 37%;
+        background-position: 50px -22px;
+    }
+    .aimg6 {
+        background-size: 45%;
+        background-position: 35px -25px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    #headText {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    #headText {
+        font-size: 24px;
+    }
+    .aNightfalls {
+        font-size: 20px !important;
+    }
+    .aDungeons {
+        font-size: 21px !important;
+    }
+    .aRaids {
+        font-size: 31px !important;
+    }
+    .aTrials {
+        font-size: 28px !important;
+    }
+    .aExotics {
+        font-size: 27px !important;
+    }
+    .aQuests {
+        font-size: 27px !important;
+    }
+    .aimg1 {
+        background-size: 40%;
+        background-position: 35px -17px;
+    }
+    .aimg2 {
+        background-size: 40%;
+        background-position: 35px -8px;
+    }
+    .aimg3 {
+        background-size: 40%;
+        background-position: 35px -42px;
+    }
+    .aimg4 {
+        background-size: 37%;
+        background-position: 39px -10px;
+    }
+    .aimg5 {
+        background-size: 37%;
+        background-position: 37px -15px;
+    }
+    .aimg6 {
+        background-size: 45%;
+        background-position: 29px -17px;
     }
 }
 
