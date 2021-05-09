@@ -8,7 +8,7 @@
 	<!-- Google API -->
 	<meta name="google-signin-client_id" content="166145593733-e55n2qulup3q6kgmnmbgttqfvtg0voai.apps.googleusercontent.com.apps.googleusercontent.com">
 
-	<title>Store - Home</title>
+	<title>Store</title>
 
 	<!-- Embed Configs -->
 	<meta property="og:title" content="Store" />
@@ -54,25 +54,13 @@
 			<?php require "./modules/currencySelection.php" ?>
 			<?php require "_partials/navbar.php"; ?>
 			
-			<div class="header">
-				<div class="headerLeft border-box">
-					<img id="imgHolder1" class="animation">
-				</div>
-				<div class="headerRight border-box">
-					<img id="imgHolder2" class="animation">
-				</div>
-				<div class="headerMiddle">
-					<div id="headText">
-						Get the <span id="cycle">weapon</span> you need to crush the competition
-					</div>
-				</div>
-			</div>
+
 
 			<div class="mid">
 				<div>
 
 					<div class="abRow">
-						<div class="abColumn aimg7">
+						<div class="abColumn">
 							<div id="ux">
 								<div class="aHeader3">Seasonal Content</div>
 							</div>
@@ -85,22 +73,21 @@
 					</div>
 
 					<?php require "_partials/gridx2.php"; ?> <!-- if media is =< 900px -->
-					<?php require "_partials/gridx1.php"; ?> <!-- if media is =< 425px -->
 
 					<div class="row">
-						<div class="aColumn aimg1">
+						<div class="aColumn">
 							<span class="aHeader1">Raids</span><br><br>
 							<a class="button aButton1" href="raids">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
-						<div class="aColumn aimg2">
+						<div class="aColumn">
 							<span class="aHeader2">Nightfalls</span><br><br>
 							<a class="button aButton2" href="nightfalls">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
-						<div class="aColumn aimg3">
+						<div class="aColumn">
 							<span class="aHeader1">Trials</span><br><br>
 							<a class="button aButton3" href="trials">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
@@ -109,19 +96,19 @@
 					</div>
 
 					<div class="row">
-						<div class="aColumn aimg4">
+						<div class="aColumn">
 							<span class="aHeader2">Dungeons</span><br><br>
 							<a class="button aButton4" href="dungeons">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
-						<div class="aColumn aimg5">
+						<div class="aColumn">
 							<span class="aHeader1">Exotics</span><br><br>
 							<a class="button aButton5" href="exotics">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
-						<div class="aColumn aimg6">
+						<div class="aColumn">
 							<span class="aHeader1">Quests</span><br><br>
 							<a class="button aButton6" href="quests">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
@@ -137,7 +124,7 @@
 		</div>
 	</div>
 
-	<script src="assets/js/currency-selector.js"></script>
+    <script src="assets/js/currency-selector.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 	<!-- <script src="https://cdn.surge-networks.co.uk/assets/javascript/SmoothScroll.js"></script> -->

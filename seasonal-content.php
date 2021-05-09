@@ -8,12 +8,12 @@
 	<!-- Google API -->
 	<meta name="google-signin-client_id" content="166145593733-e55n2qulup3q6kgmnmbgttqfvtg0voai.apps.googleusercontent.com.apps.googleusercontent.com">
 
-	<title>Store - Dungeons</title>
+	<title>Store - Seasonal Content</title>
 
 	<!-- Embed Configs -->
-	<meta property="og:title" content="Store - Dungeons" />
+	<meta property="og:title" content="Store - Seasonal Content" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg">
+	<meta property="og:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg" />
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://example.co.uk/">
 

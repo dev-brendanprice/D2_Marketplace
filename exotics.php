@@ -8,25 +8,25 @@
 	<!-- Google API -->
 	<meta name="google-signin-client_id" content="166145593733-e55n2qulup3q6kgmnmbgttqfvtg0voai.apps.googleusercontent.com.apps.googleusercontent.com">
 
-	<title>Store - Dungeons</title>
+	<title>Store - Exotics</title>
 
 	<!-- Embed Configs -->
-	<meta property="og:title" content="Store - Dungeons" />
+	<meta property="og:title" content="Store - Exotics" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg">
+	<meta property="og:image" content="https://www.pcgamesn.com/wp-content/uploads/2020/10/destiny-2-beyond-light-exotics-mask-of-bakris.jpg" />
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://example.co.uk/">
 
 	<meta name="og:description" content="The best place for Destiny 2 account recoveries, boosting and services.">
 	<meta name="keywords" content="Destiny2, Recoveries, Services, Boosting, Hiring">
-	<meta name="theme-color" content="#3D253D">
+	<meta name="theme-color" content="#162125">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="example.co.uk">
 	<meta property="twitter:url" content="https://example.co.uk">
 	<meta name="twitter:title" content="example">
 	<meta name="twitter:description" content="The best place for Destiny 2 account recoveries, boosting and services.">
-	<meta name="twitter:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg">
+	<meta name="twitter:image" content="https://www.pcgamesn.com/wp-content/uploads/2020/10/destiny-2-beyond-light-exotics-mask-of-bakris.jpg">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="assets/css/style.css">

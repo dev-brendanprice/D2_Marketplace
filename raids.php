@@ -13,7 +13,7 @@
 	<!-- Embed Configs -->
 	<meta property="og:title" content="Store - Dungeons" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg">
+	<meta property="og:image" content="https://images.hdqwalls.com/wallpapers/destiny-2-season-of-arrivals-prophecy-dungeon-4k-0f.jpg" />
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://example.co.uk/">
 
@@ -53,7 +53,7 @@
 			<?php require "./modules/fadeIn.php"; ?>
 			<?php require "./modules/currencySelection.php" ?>
 			<?php require "_partials/navbar.php"; ?>
-			<?php require "modules/getPageTitle.php"; ?>
+
 
 			<div class="mid">
 				<div>
@@ -61,7 +61,7 @@
 					<div class="abRow">
 						<div class="abColumn">
 							<div id="ux">
-								<div class="aHeader3"><?php print page_title(__FILE__); ?></div>
+								<div class="aHeader3">Dungeons</div>
 							</div>
 							<div id="uxi">
 								<span class="aText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
