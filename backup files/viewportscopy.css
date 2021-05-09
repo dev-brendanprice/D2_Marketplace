@@ -1,0 +1,585 @@
+/* ============================= */
+/*         MEDIA QUERIES         */
+/* ============================= */
+
+
+/* Desktop (4k@2560px) */
+@media screen and (min-width: 2560px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+
+/* Laptop Large*/
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 75%;
+    }
+    #headText {
+        font-size: 43px;
+    }
+    .aHeader3 {
+        font-size: 38px;
+    }
+    .aHeader2 {
+        font-size: 25px;
+    }
+    .aHeader1 {
+        font-size: 30px;
+    }
+    .aColumn {
+        height: 95px;
+    }
+    .aimg1 {
+        background-position: 25px, -30px;
+    }
+    .aimg2 {
+        background-position: 25px, -20px;
+    }
+    .aimg3 {
+        background-position: 25px, -65px;
+    }
+    .aimg4 {
+        background-position: 29px, -20px;
+    }
+    .aimg5 {
+        background-position: 29px, -20px;
+    }
+    .aimg6 {
+        background-position: 15px, -25px;
+    }
+    .aimg7 {
+        background-size: 60%, 50%;
+        background-position: -100px -2px, 530px -2px;
+    }
+    #sicons {
+        margin-top: 40px;
+    }
+    #liTop {
+        font-size: 16px;
+    }
+    #liBott {
+        font-size: 10px;
+    }
+    #riTop {
+        font-size: 16px;
+    }
+    #riBott {
+        font-size: 10px;
+    }
+    #visa {
+        margin-right: 21px;
+    }
+}
+
+@media screen and (max-width: 1363px) {
+    #headText {
+        font-size: 41.6px;
+    }
+    .aHeader3 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1314px) {
+    #headText {
+        font-size: 37px;
+    }
+    .aimg7 {
+        background-size: 65%, 60%;
+        background-position: -130px -2px, 470px -2px;
+    }
+}
+
+@media screen and (max-width: 1276px) {
+    .aHeader2 {
+        font-size: 125%;
+    }
+    .aHeader3 {
+        font-size: 32px;
+    }
+    #headText {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .aHeader2 {
+        font-size: 106.25%;
+    }
+    .aHeader1 {
+        font-size: 156.25%;
+    }
+    .aColumn {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1168px) {
+    #headText {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .aHeader1 {
+        font-size: 143.75%;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .button {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 6.2px !important;
+        padding-top: 6.2px !important;
+    }
+    .aText {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .aHeader1 {
+        font-size: 131.25% !important;
+    }
+    .aHeader2 {
+        font-size: 93.75% !important;
+    }
+    #headText {
+        font-size: 33px;
+    }
+    .aimg7 {
+        background-size: 70%, 65%;
+        background-position: -160px -2px, 410px -2px;
+    }
+}
+
+@media screen and (max-width: 1041px) {
+    .aimg7 {
+        background-size: 75%, 70%;
+        background-position: -175px -2px, 380px -2px;
+    }
+    #headText {
+        font-size: 31px;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 75%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+    .aHeader3 {
+        font-size: 30px;
+    }
+    .aHeader2 {
+        font-size: 20px;
+        margin-left: 130px;
+    }
+    .aHeader1 {
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .abColumn {
+        height: 110px;
+    }
+    .abButton {
+        padding-left: 20px !important;
+        padding-right: 15px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+    .aButton1, .aButton2, .aButton3, .aButton4, .aButton5, .aButton6{
+        padding-left: 20px !important;
+        padding-right: 15px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        margin-left: 130px !important;
+    }
+    .aimg1 {
+        background-size: 47%;
+        background-position: 17px -17px;
+    }
+    .aimg2 {
+        background-size: 48%;
+        background-position: 17px -11px;
+    }
+    .aimg3 {
+        background-size: 50%;
+        background-position: 17px -47px;
+    }
+    .aimg4, .aimg5 {
+        background-size: 43%;
+        background-position: 20px -13px;
+    }
+    .aimg6 {
+        background-size: 55%;
+        background-position: 6px -15px;
+    }
+    .aimg7 {
+        background-size: 65%, 55%;
+        background-position: -110px -2px, 370px -2px;
+    }
+    #fb {
+        width: 50%;
+    }
+    #twi {
+        width: 55%;
+    }
+    #dis {
+        width: 50%;
+    }
+    #titan1 {
+        margin-top: -5px;
+    }
+    #warlock2 {
+        margin-top: -25px;
+    }
+    #warlock1 {
+        margin-top: -20px;
+    }
+    #searchBox {
+        font-size: 11px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    #search {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    #headText {
+        font-size: 29px;
+    }
+    .aHeader3 {
+        font-size: 29px;
+    }
+    .aimg7 {
+        background-position: -110px -2px, 360px -2px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .aHeader1 {
+        font-size: 112.5% !important;
+    }
+    .aHeader2 {
+        font-size: 81.25% !important;
+    }
+    .button, .abButton {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 5px !important;
+        padding-top: 0px !important;
+    }
+    .aText {
+        font-size: 8px;
+    }
+    .aColumn {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    #headText {
+        font-size: 28px;
+    }
+}
+
+/* change to grid 2x3 */
+@media screen and (max-width: 900px) {
+    .aColumn {
+        width: 25% !important; 
+        height: 90px !important;
+    }
+    .row {
+        display: none;
+    }
+    .aRow {
+        display: table;
+    }
+    #searchBox {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 35px;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-right: 30px;
+        /* border: solid 2px red; */
+    }
+    #userColumn {
+        margin-left: 0px;
+    }
+    .button, .abButton {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-bottom: 8px !important;
+        padding-top: 8px !important;
+    }
+    .button {
+        margin-left: 0px !important;
+        margin-bottom: 10px !important;
+    }
+    .boxContent {
+        border-radius: 9px;
+        width: 50%;
+        float: right;
+        height: 95%;
+    }
+    .aHeader1, .aHeader2 {
+        margin-left: 0px !important;
+    }
+    .aHeader3 {
+        font-size: 40px;
+    }
+    .aText {
+        font-size: 11px;
+    }
+    .aRaids {
+        font-size: 32px !important;
+    }
+    .aTrials {
+        font-size: 29px !important;
+    }
+    .aExotics {
+        font-size: 28px !important;
+    }
+    .aNightfalls {
+        font-size: 25px !important;
+        letter-spacing: 1px;
+    }
+    .aDungeons {
+        font-size: 27px !important;
+        letter-spacing: 1px;
+    }
+    .aQuests {
+        font-size: 28px !important;
+    }
+    .aimg7 {
+        background-position: -120px -2px, 430px -2px;
+    }
+    .aimg1 {
+        background-size: 30%;
+        background-position: 70px -30px;
+    }
+    .aimg2 {
+        background-size: 30%;
+        background-position: 65px -20px;
+    }
+    .aimg3 {
+        background-size: 32%;
+        background-position: 65px -66px;
+    }
+    .aimg4 {
+        background-size: 30%;
+        background-position: 65px -30px;
+    }
+    .aimg5 {
+        background-size: 28%;
+        background-position: 73px -25px;
+    }
+    .aimg6 {
+        background-size: 37%;
+        background-position: 50px -35px;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    #headText {
+        font-size: 34px;
+    }
+    .aHeader3 {
+        font-size: 35px;
+    }
+    .aimg7 {
+        background-position: -120px -2px, 380px -2px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    #headText {
+        font-size: 32px;
+    }
+    .aHeader3 {
+        font-size: 34px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+    #searchBox {
+        display: none;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-right: 50px;
+        /* border: solid 2px red; */
+    }
+    .aimg7 {
+        background-size: 75%, 70%;
+        background-position: -170px -2px, 370px -2px;
+    }
+    .aimg1 {
+        background-size: 35% !important;
+        background-position: 60px -27px !important;
+    }
+    .aimg2 {
+        background-size: 35% !important;
+        background-position: 60px -19px !important;
+    }
+    .aimg3 {
+        background-size: 35% !important;
+        background-position: 60px -58px !important;
+    }
+    .aimg4, .aimg5 {
+        background-size: 32% !important;
+        background-position: 65px -19px !important;
+    }
+    .aimg6 {
+        background-size: 40% !important;
+        background-position: 50px -28px !important;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    #headText {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    #headText {
+        font-size: 28px;
+    }
+    .aHeader3 {
+        font-size: 31px;
+    }
+    .aNightfalls {
+        font-size: 23px !important;
+    }
+    .aDungeons {
+        font-size: 25px !important;
+    }
+    .aimg7 {
+        background-position: -150px -2px, 330px -2px;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    #headText {
+        font-size: 26px;
+    }
+    .aHeader3 {
+        font-size: 28px;
+    }
+}
+
+/* Mobile Large*/
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+        text-align: left;
+    }
+    .headerLeft {
+        display: none;
+    }
+    .headerRight {
+        width: 50%;
+        margin-top: 40px;
+        margin-left: 235px;
+        /* border: solid 2px black; */
+    }
+    .headerMiddle {
+        width: 255px;
+        padding-right: 30px;
+        padding-left: 10px;
+        margin-left: 0px;
+        /* border: solid 2px black; */
+    }
+    .logo {
+        width: 25%;
+        margin-top: -8px;
+    }
+    #userIcon {
+        width: 40px;
+    }
+    #userColumn{
+        margin-top: -15px;
+    }
+    .nav-wrapper {
+        width: 70px !important;
+        margin-top: -33px;
+        margin-right: 0px !important;
+        /* border: solid 2px red; */
+    }
+    #cc {
+        font-size: 14px !important;
+        /* border: solid 2px black; */
+    }
+    #ca {
+        font-size: 15px !important;
+        /* border: solid 2px black; */
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .headerRight {
+        position: absolute;
+    }
+    .row {
+        display: none;
+    }
+    .aRow {
+        display: none !important;
+    }
+    .bRow {
+        display: table;
+    }
+}
+
+/* Mobile M */
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    #headText {
+        font-size: 28px;
+    }
+}
