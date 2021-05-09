@@ -1,4 +1,4 @@
-<div class="aRow">
+<div class="bRow">
     <div class="aColumn aimg1">
         <div class="boxContent">
             <span class="aRaids aHeader1">Raids</span><br><br>
@@ -7,6 +7,9 @@
             </a>
         </div>
     </div>
+</div>
+
+<div class="bRow">
     <div class="aColumn aimg2">
         <div class="boxContent">
             <span class="aNightfalls aHeader2">Nightfalls</span><br><br>
@@ -17,7 +20,7 @@
     </div>
 </div>
 
-<div class="aRow">
+<div class="bRow">
     <div class="aColumn aimg3">
         <div class="boxContent">
             <span class="aTrials aHeader1">Trials</span><br><br>
@@ -26,6 +29,9 @@
             </a>
         </div>
     </div>
+</div>
+
+<div class="bRow">
     <div class="aColumn aimg4">
         <div class="boxContent">
             <span class="aDungeons aHeader2">Dungeons</span><br><br>
@@ -36,7 +42,7 @@
     </div>
 </div>
 
-<div class="aRow">
+<div class="bRow">
     <div class="aColumn aimg5">
         <div class="boxContent">
             <span class="aExotics aHeader1">Exotics</span><br><br>
@@ -45,6 +51,9 @@
             </a>
         </div>
     </div>
+</div>
+
+<div class="bRow">
     <div class="aColumn aimg6">
         <div class="boxContent">
             <span class="aQuests aHeader1">Quests</span><br><br>

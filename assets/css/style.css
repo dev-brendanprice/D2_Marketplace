@@ -78,6 +78,13 @@ input:focus {
     border-spacing: 10px;
 }
 
+.bRow {
+    display: none;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
 .fRow {
     display: table;
     width: 100%;
@@ -246,6 +253,7 @@ input:focus {
     margin-left: 0px;
     margin-right: 0px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .aText {

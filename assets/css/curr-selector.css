@@ -13,6 +13,7 @@ body {
 }
 .sl-nav {
   display: inline;
+  height: 100%;
 }
 .sl-nav ul {
   /* border: solid 1px red; */
@@ -22,9 +23,11 @@ body {
   position: relative;
   display: inline-block;
 }
+/* above this line for currency dropwdown */
 .sl-nav li {
   cursor: pointer;
   padding-bottom:0;
+  height: 100%;
 }
 .sl-nav li ul {
   display: none;

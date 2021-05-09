@@ -65,7 +65,8 @@
                                     $encoded = md5('priceroan2@gmail.com'); // users email
                                     $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/images/default.png'); // default image
                                     ?>
-                                    <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" />
+                                    <!-- <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" /> -->
+                                    <img id="userIcon" src="https://cdn.discordapp.com/avatars/360832097495285761/7c3fb2916acde7616187041b8e8a6f41.webp">
                                     <!-- End -->
 
                                     <div class="userDropdown">
