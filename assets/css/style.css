@@ -289,6 +289,13 @@ input:focus {
     position: initial;
 }
 
+.footerx2 {
+    background-color: #1e212e;
+    width: 100%;
+    position: initial;
+    display: none;
+}
+
 .footerx3 {
     background-color: #1e212e;
     width: 100%;
