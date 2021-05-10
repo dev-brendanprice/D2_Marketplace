@@ -551,6 +551,45 @@
     .footerx3 {
         display: block;
     }
+    #sicons {
+        margin-top: 37px;
+    }
+    #fb {
+        width: 40%;
+    }
+    #twi {
+        width: 46%;
+    }
+    #dis {
+        width: 40%;
+    }
+    #mc {
+        width: 15%;
+        margin: 0;
+        margin-left: 70px;
+        float: left;
+    }
+    #mcSecure {
+        width: 10%;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -20px;
+        float: left;
+    }
+    #visa {
+        width: 8%;
+        margin: 0;
+        margin-right: 230px;
+        margin-top: -37px;
+        float: right;
+    }
+    #visaSecure {
+        width: 11%;
+        margin: 0;
+        margin-right: 70px;
+        margin-top: -65px;
+        float: right;
+    }
 }
 
 @media screen and (max-width: 663px) {
