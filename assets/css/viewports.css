@@ -529,6 +529,12 @@
     .aimg6 {
         background-position: 50px -22px;
     }
+    #userIcon {
+        width: 45px;
+    }
+    .cFont {
+        font-size: 10px !important;
+    }
 }
 
 @media screen and (max-width: 663px) {
@@ -567,6 +573,9 @@
 @media screen and (max-width: 619px) {
     #headText {
         font-size: 25px;
+    }
+    .aimg7 {
+        background-position: -130px -2px, 280px -2px;
     }
 }
 
@@ -615,6 +624,69 @@
     .aimg6 {
         background-size: 45%;
         background-position: 29px -17px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #headText {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .aNightfalls {
+        font-size: 18px !important;
+    }
+    .aDungeons {
+        font-size: 19px !important;
+    }
+    .aRaids {
+        font-size: 29px !important;
+    }
+    .aTrials {
+        font-size: 26px !important;
+    }
+    .aExotics {
+        font-size: 25px !important;
+    }
+    .aQuests {
+        font-size: 25px !important;
+    }
+    .aHeader3 {
+        font-size: 24px;
+    }
+    .aText {
+        font-size: 9px;
+    }
+    .button, .abButton {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 6px !important;
+        padding-top: 6px !important;
+    }
+    .boxContent {
+        border-radius: 9px;
+        width: 50%;
+        float: right;
+        height: 95%;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    #headText {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    #headText {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    #headText {
+        font-size: 17px;
     }
 }
 
