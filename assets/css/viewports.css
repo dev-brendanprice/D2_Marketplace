@@ -530,11 +530,22 @@
         background-position: 50px -22px;
     }
     #userIcon {
-        width: 45px;
+        margin-top: 5px;
+        width: 47px;
     }
-    .cFont {
-        font-size: 10px !important;
+    #cc {
+        font-size: 17px !important;
     }
+    #ca {
+        font-size: 17px !important;
+    }
+    .nav-wrapper {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 697px) {
+    /* change footer to 2x2 grid */
 }
 
 @media screen and (max-width: 663px) {
@@ -577,12 +588,6 @@
     .aimg7 {
         background-position: -130px -2px, 280px -2px;
     }
-}
-
-@media screen and (max-width: 598px) {
-    #headText {
-        font-size: 24px;
-    }
     .aNightfalls {
         font-size: 20px !important;
     }
@@ -600,6 +605,12 @@
     }
     .aQuests {
         font-size: 27px !important;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    #headText {
+        font-size: 24px;
     }
     .aimg1 {
         background-size: 40%;
@@ -669,6 +680,37 @@
         width: 50%;
         float: right;
         height: 95%;
+    }
+    .aimg1 {
+        background-size: 45%;
+        background-position: 30px -20px;
+    }
+    .aimg2 {
+        background-size: 45%;
+        background-position: 30px -10px;
+    }
+    .aimg3 {
+        background-size: 45%;
+        background-position: 30px -46px;
+    }
+    .aimg4 {
+        background-size: 41%;
+        background-position: 35px -12px;
+    }
+    .aimg5 {
+        background-size: 41%;
+        background-position: 35px -12px;
+    }
+    .aimg6 {
+        background-size: 50%;
+        background-position: 24px -20px;
+    }
+    .aimg7 {
+        background-size: 80%, 75%;
+        background-position: -120px -2px, 250px -2px;
+    }
+    .abColumn {
+        height: 100px;
     }
 }
 

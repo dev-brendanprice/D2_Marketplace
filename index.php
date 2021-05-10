@@ -84,8 +84,8 @@
 						</div>
 					</div>
 
-					<?php require "_partials/gridx2.php"; ?> <!-- if media is =< 900px -->
-					<?php require "_partials/gridx1.php"; ?> <!-- if media is =< 425px -->
+					<?php require "_partials/navgridx2.php"; ?> <!-- if media is =< 900px -->
+					<?php require "_partials/navgridx1.php"; ?> <!-- if media is =< 425px -->
 
 					<div class="row">
 						<div class="aColumn aimg1">
