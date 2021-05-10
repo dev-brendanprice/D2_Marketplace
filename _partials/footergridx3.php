@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footerx3">
 	<div id="fBar"></div> <!-- grey bar at top -->
 	<div class="fRow">
 
@@ -80,6 +80,10 @@
 				</div>
 			</div>
 		</div>
+
+	</div>
+
+	<div clas="fRow">
 
 		<div class="roColumn">
 

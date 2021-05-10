@@ -289,6 +289,13 @@ input:focus {
     position: initial;
 }
 
+.footerx3 {
+    background-color: #1e212e;
+    width: 100%;
+    position: initial;
+    display: none;
+}
+
 .cpolicyContainer {
     margin: auto;
     width: 800px;
