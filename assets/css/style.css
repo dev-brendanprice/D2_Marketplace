@@ -92,6 +92,13 @@ input:focus {
     border-spacing: 10px;
 }
 
+.faRow {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
 #fRow {
     display: table;
     width: 100%;

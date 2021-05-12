@@ -38,7 +38,7 @@
 
     </div>
 
-    <div class="fRow">
+    <div class="faRow">
 
 		<div id="liColumn">
 
