@@ -898,41 +898,61 @@
         display: block;
     }
     #mc {
-        width: 55%;
+        width: 45%;
         margin: 0;
+        margin-top: 15px;
         float: none;
-        /* margin-left: 70px;
-        float: left; */
     }
     #mcSecure {
-        width: 55%;
+        width: 30%;
         margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 18px;
         float: none;
-        /* margin-left: 200px;
-        margin-top: -20px;
-        float: left; */
     }
     #visa {
-        width: 37%;
+        width: 20%;
         margin: 0;
+        margin-bottom: 15px;
+        margin-left: 8px;
         float: none;
-        /* margin-right: 190px;
-        margin-top: -37px;
-        float: right; */
     }
     #visaSecure {
-        width: 55%;
+        width: 31%;
         margin: 0;
+        margin-left: 5px;
         float: none;
-        /* margin-right: 70px;
-        margin-top: -65px;
-        float: right; */
     }
-    .roColumn {
+    #liColumn {
+        width: 50%;
+    }
+    #loColumn {
+        width: 50%;
+    }
+    #roColumn {
+        margin: 0;
+        /* margin-top: 100px; */
         width: 50%;
     }
     #riColumn {
         width: 50%;
+        /* border: solid 2px green; */
+    }
+    #sicons {
+        margin-top: 37px;
+        width: auto;
+    }
+    #fb {
+        width: 38%;
+        margin-left: 15px;
+    }
+    #twi {
+        width: 44%;
+        margin-right: 15x;
+    }
+    #dis {
+        width: 38%;
     }
 }
 
@@ -1025,6 +1045,55 @@
     }
     #headText {
         font-size: 28px;
+    }
+    .footer {
+        display: none;
+    }
+    .footerx1 {
+        display: block;
+    }
+    .footerx2 {
+        display: none;
+    }
+    .footerx3 {
+        display: none;
+    }
+    #sicons {
+        margin-top: 37px;
+        width: auto;
+    }
+    #fb {
+        width: 24%;
+        margin-left: 15px;
+    }
+    #twi {
+        width: 30%;
+        margin-right: 15x;
+    }
+    #dis {
+        width: 24%;
+    }
+    #mc {
+        width: 30%;
+        float: left;
+        margin: 0;
+    }
+    #mcSecure {
+        width: 20%;
+        float: left;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #visa {
+        width: 15%;
+        float: right;
+        margin: 0;
+    }
+    #visaSecure {
+        width: 20%;
+        float: right;
+        margin: 0;
+        margin-top: 20px;
     }
 }
 

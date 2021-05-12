@@ -133,8 +133,9 @@
 			</div>
 
 			<?php require "_partials/footer.php"; ?>
-			<?php require "_partials/footergridx2.php"; ?>
 			<?php require "_partials/footergridx3.php"; ?>
+			<?php require "_partials/footergridx2.php"; ?>
+			<?php require "_partials/footergridx1.php"; ?>
 
 		</div>
 	</div>

@@ -1,4 +1,4 @@
-<div class="footerx2">
+<div class="footerx1">
 	<div id="fBar"></div> <!-- grey bar at top -->
 	<div class="fRow">
 
@@ -36,6 +36,10 @@
 			</div>
 		</div>
 
+    </div>
+
+    <div class="fRow">
+
 		<div id="liColumn">
 
 			<div id="liTop">
@@ -57,15 +61,6 @@
     </div>
 
     <div class="fRow">
-
-		<div id="roColumn">
-
-			<img id="mc" src="https://brendan.surge-networks.co.uk/images/mc.svg"><br>
-			<img id="mcSecure" src="https://brendan.surge-networks.co.uk/images/mc_secure.svg"><br>
-			<img id="visa" src="https://brendan.surge-networks.co.uk/images/VISA.svg"><br>
-			<img id="visaSecure" src="https://brendan.surge-networks.co.uk/images/verified.svg">
-
-		</div>
 
 		<div id="riColumn">
 
@@ -95,4 +90,17 @@
 		</div>
 
 	</div>
+
+    <div class="fRow">
+
+        <div id="roColumn">
+
+            <img id="mc" src="https://brendan.surge-networks.co.uk/images/mc.svg">
+            <img id="visa" src="https://brendan.surge-networks.co.uk/images/VISA.svg"><br>
+            <img id="mcSecure" src="https://brendan.surge-networks.co.uk/images/mc_secure.svg">
+            <img id="visaSecure" src="https://brendan.surge-networks.co.uk/images/verified.svg">
+
+        </div>
+
+    </div>
 </div>

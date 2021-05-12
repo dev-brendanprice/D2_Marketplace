@@ -92,6 +92,12 @@ input:focus {
     border-spacing: 10px;
 }
 
+.sRow {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
 .abRow {
     display: table;
     width: 100%;
@@ -287,6 +293,13 @@ input:focus {
     background-color: #1e212e;
     width: 100%;
     position: initial;
+}
+
+.footerx1 {
+    background-color: #1e212e;
+    width: 100%;
+    position: initial;
+    display: none;
 }
 
 .footerx2 {
@@ -572,14 +585,6 @@ box-shadow: inset 7px 10px 12px #34374b;
     line-height: 20px;
 }
 
-#fRow {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    margin: 0px;
-    padding: 0px;
-}
-
 #fColumn {
     display: table-cell;
     margin: 0px;
@@ -750,6 +755,7 @@ box-shadow: inset 7px 10px 12px #34374b;
 }
 
 #sicons {
+    display: block;
     margin-top: 34px;
 }
 
