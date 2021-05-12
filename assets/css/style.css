@@ -92,6 +92,14 @@ input:focus {
     border-spacing: 10px;
 }
 
+#fRow {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
 .sRow {
     display: table;
     width: 100%;
