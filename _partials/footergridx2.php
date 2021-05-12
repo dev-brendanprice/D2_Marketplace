@@ -58,6 +58,15 @@
 
     <div class="fRow">
 
+		<div class="roColumn">
+
+			<img id="mc" src="https://brendan.surge-networks.co.uk/images/mc.svg"><br>
+			<img id="mcSecure" src="https://brendan.surge-networks.co.uk/images/mc_secure.svg"><br>
+			<img id="visa" src="https://brendan.surge-networks.co.uk/images/VISA.svg"><br>
+			<img id="visaSecure" src="https://brendan.surge-networks.co.uk/images/verified.svg">
+
+		</div>
+
 		<div id="riColumn">
 
 			<div id="riTop">
@@ -83,17 +92,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="roColumn">
-
-			<div>
-				<img id="mc" src="https://brendan.surge-networks.co.uk/images/mc.svg"><br>
-				<img id="mcSecure" src="https://brendan.surge-networks.co.uk/images/mc_secure.svg"><br>
-				<img id="visa" src="https://brendan.surge-networks.co.uk/images/VISA.svg"><br>
-				<img id="visaSecure" src="https://brendan.surge-networks.co.uk/images/verified.svg">
-			</div>
-
 		</div>
 
 	</div>
