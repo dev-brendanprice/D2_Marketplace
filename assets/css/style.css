@@ -156,10 +156,13 @@ input:focus {
 }
 
 .header {
+    /* set and align the font */
     font-family: UniSansHeavy;
     text-align: center;
+    /* make the spacing look better */
     margin: auto;
     margin-top: 70px;
+    /* push neighbouring div down */
     margin-bottom: 10px;
 }
 
@@ -285,13 +288,18 @@ input:focus {
 }
 
 .mid>div {
+    /* apply inline-block to child divs inside of mid */
     display: inline-block;
 }
 
 .mid {
+    /* align text to center inside of mid */
     text-align: center;
+    /* apply margins for clean spacing */
     margin-top: 90px;
     margin-bottom: 50px;
+    /* define grid height via fraction value */
+    /* Depracted? */
     grid-auto-rows: 1fr;
 }
 
@@ -344,6 +352,7 @@ input:focus {
 } */
 
 .main {
+    /* center all content */
     position: relative;
     margin-left: 0px;
     margin-right: 0px;
@@ -351,8 +360,10 @@ input:focus {
 }
 
 .container {
+    /* apply a text align and inherit margin */
     text-align: center;
     margin: auto;
+    /* set width to 50% */
     width: 50%;
     /* border: solid 2px black; */
 }
@@ -453,10 +464,12 @@ box-shadow: inset 7px 10px 12px #34374b;
 
 #navContainer{
     /* border: solid 1px yellow; */
+    /* float right defaults viewports to display navbar on right */
     float: right;
     display: absolute;
     margin: 0;
     margin-right: 10px;
+    /* align all contents to vertically-middle */
     vertical-align: middle;
 }
 

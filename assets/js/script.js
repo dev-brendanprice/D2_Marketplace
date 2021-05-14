@@ -1,12 +1,16 @@
-const textList = ["Weapon<br>"];
+const textList = ["Weapon<br>", "Armour<br>", "Content<br>"];
+// get cycle element
 const cycle = document.querySelector("#cycle");
+// set counter to 0
 let i = 0;
+// define function
 const cycleText = () => {
     cycle.innerHTML = textList[i];
     i = ++i % textList.length;
 };
 cycleText();
-var seconds = 8; // edit this for seconds
+var seconds = 8; // seconds between each change
+// run function on an interval
 setInterval(cycleText, seconds * 1000);
 
 function randInt(max) {
