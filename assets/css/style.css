@@ -53,8 +53,11 @@ input:focus {
 }
 
 .imageFadeToBottom {
+    /* set opacity to 0.8 */
     opacity: 0.8;
+    /* define the direction the opacity fade mask should point in */
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    /* apply the mask */
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
@@ -65,9 +68,13 @@ input:focus {
 }
 
 .row {
+    /* treat items inside this like columns */
     display: table;
+    /* conform to 100% of width */
     width: 100%;
+    /* width will not change from 100% unless said */
     table-layout: fixed;
+    /* grid items have 10px between each other */
     border-spacing: 10px;
 }
 
@@ -167,8 +174,11 @@ input:focus {
 }
 
 .headerMiddle {
+    /* set text color to white */
     color: white;
+    /* neighbouring divs need space */
     width: 40%;
+    /* set margin and padding */
     margin: auto;
     padding: 25px;
 }
@@ -188,10 +198,13 @@ input:focus {
 }
 
 .aColumn {
+    /* conforms to "display: table" from .row{} */
     display: table-cell;
+    /* add border and bg colour to grid item */
     border: solid 1.8px black;
     background-color: rgba(90, 90, 90, 0.267);
     height: 110px;
+    /* add curved edges to grid items */
     border-radius: 10px;
 }
 

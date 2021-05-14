@@ -1,19 +1,27 @@
+
 const textList = ["Weapon<br>", "Armour<br>", "Content<br>"];
 // get cycle element
 const cycle = document.querySelector("#cycle");
+
 // set counter to 0
 let i = 0;
-// define function
+// define function (short-hand syntax)
 const cycleText = () => {
+    // change text to array item
     cycle.innerHTML = textList[i];
+    // update counter
     i = ++i % textList.length;
 };
+
 cycleText();
 var seconds = 8; // seconds between each change
 // run function on an interval
+// setInterval takes milliseconds by default
 setInterval(cycleText, seconds * 1000);
 
+// make custom randInt function
 function randInt(max) {
+    // use javascript math function get random number
     return Math.floor(Math.random() * max);
 }
 

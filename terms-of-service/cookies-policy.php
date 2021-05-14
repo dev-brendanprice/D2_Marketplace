@@ -37,7 +37,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<img class="imageFadeToBottom border-box" src="../images/nessus1.png">
+<img class="imageFadeToBottom bg" src="../images/nessus1.png">
 
 <body class="animation" style="color: white;font-family: Arial">
 
