@@ -1,5 +1,5 @@
 
-const textList = ["Weapon<br>", "Armour<br>", "Content<br>"];
+const textList = ["Weapon<br>", "Armour<br>", "Items<br>"];
 // get cycle element
 const cycle = document.querySelector("#cycle");
 
