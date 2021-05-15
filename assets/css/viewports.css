@@ -893,6 +893,24 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .aimg7 {
+        background-position: -120px -2px, 220px -2px;
+    }
+    .abColumn {
+        height: 90px;
+    }
+    .aColumn {
+        height: 80px !important;
+    }
+    .aNightfalls {
+        font-size: 17px !important;
+    }
+    .aDungeons {
+        font-size: 18px !important;
+    }
+}
+
 @media screen and (max-width: 490px) {
     .footerx3 {
         display: none;
@@ -966,11 +984,49 @@
     #headText {
         font-size: 19px;
     }
+    .aNightfalls {
+        font-size: 15px !important;
+    }
+    .aDungeons {
+        font-size: 16px !important;
+    }
+    .aQuests {
+        font-size: 23px !important;
+    }
+    .aExotics {
+        font-size: 23px !important;
+    }
+    .aTrials {
+        font-size: 24px !important;
+    }
+    .aRaids {
+        font-size: 27px !important;
+    }
 }
 
 @media screen and (max-width: 467px) {
     #headText {
         font-size: 17px;
+    }
+    .aimg1 {
+        background-size: 45%;
+        background-position: 20px -10px;
+    }
+    .aimg2 {
+        background-size: 45%;
+        background-position: 20px -5px;
+    }
+    .aimg3 {
+        background-size: 45%;
+        background-position: 20px -33px;
+    }
+    .aimg4, .aimg5 {
+        background-size: 41%;
+        background-position: 24px -7px;
+    }
+    .aimg6 {
+        background-size: 50%;
+        background-position: 15px -13px;
     }
 }
 
@@ -1041,6 +1097,10 @@
     }
     .bRow {
         display: table;
+    }
+    .aimg7 {
+        background-size: 80%, 75%;
+        background-position: -110px -2px, 210px -2px;
     }
 }
 
