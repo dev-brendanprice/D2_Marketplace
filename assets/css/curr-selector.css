@@ -191,7 +191,7 @@ body {
 .sl-nav2 li ul li span.active {
   color: #146c78;
 }
-.dropdownPre {
+ .dropdownPre {  /* Fixes dropdown disappearing when trying to hover on it */
   font-size: 20px;
-  padding-bottom: 12px;
+  padding-bottom: 16px; /* This is the fix */
 }
