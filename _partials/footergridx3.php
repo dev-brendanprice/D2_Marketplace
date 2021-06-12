@@ -18,7 +18,6 @@
 					<div>
 						<div>
 							<address>
-								Bedfordshire<br>
 								United Kingdom<br>
 							</address>
 						</div>

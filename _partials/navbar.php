@@ -25,21 +25,19 @@
                             <div class="sl-nav">
 
                                 <ul>
-                                    <li><x id="cc" style="font-size:20px"><?php getCurrencyCode() ?></x> <i id="ca" style="font-size: 20px;" class="fas fa-angle-down gray"></i>‏‏‎‏‎‏‏‎
+                                    <li>
+                                        <x id="cc" class="dropdownPre"><?php getCurrencyCode() ?></x> <i id="ca" style="font-size: 20px;" class="fas fa-angle-down gray"></i>‏‏‎‏‎‏‏‎
                                         <div class="triangle"></div>
                                         <ul>
                                             <li><i class="sl-flag flag-gb">
                                                     <div id="uk"></div>
-                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyGBP()"><span> Great British Pound (&#163;)</span></button></a></li>
+                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyGBP()"><span> Great British Pound (&pound;)</span></button></a></li>
                                             <li><i class="sl-flag flag-usa">
                                                     <div id="usa"></div>
-                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyUSD()"><span> United States Dollar (&#36;)</span></button></a></li>
-                                            <li><i class="sl-flag flag-ru">
-                                                    <div id="ru"></div>
-                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyRUB()"><span> Russian Ruble (&#8381;)</span></button></a></li>
-                                            <li><i class="sl-flag flag-cn">
-                                                    <div id="cn"></div>
-                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyRMB()"><span> Chinese Renminbi (&#165;)</span></a></button></li>
+                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyUSD()"><span> United States Dollar (&dollar;)</span></button></a></li>
+                                            <li><i class="sl-flag flag-eu">
+                                                    <div id="eu"></div>
+                                                </i> <a href=""><button style="padding: 0;border: none;background: none;cursor:pointer" onclick="currencyEUR()"><span> European Euro (&euro;)</span></button></a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -61,13 +59,10 @@
 
                                     <!-- Get User Icon -->
                                     <?php
-                                    
                                     $encoded = md5('BP7714.bp@gmail.com'); // users email
-                                    $default = urlencode('https://cdn.discordapp.com/avatars/326058698067804173/a_b954cd20679e225a11bb6ed1995e76a8.gif?size=128'); // default image
+                                    $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/uploads/noimg.png'); // default image
                                     ?>
-                                    <!-- <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" /> -->
-                                    <img id="userIcon" src="https://cdn.discordapp.com/avatars/326058698067804173/a_b954cd20679e225a11bb6ed1995e76a8.gif?size=128">
-                                    <!-- <img id="userIcon" src="./images/discord.png"> -->
+                                    <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>">
                                     <!-- End -->
 
                                     <div class="userDropdown">
