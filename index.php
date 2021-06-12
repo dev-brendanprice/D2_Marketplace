@@ -77,7 +77,7 @@
 								<div class="aHeader3">Seasonal Content</div>
 							</div>
 							<div id="uxi">
-								<a class="abButton" href="schalls">
+								<a class="abButton" href="seasonal-content.php">
 									<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 								</a>
 							</div>
@@ -90,19 +90,19 @@
 					<div class="row">
 						<div class="aColumn aimg1">
 							<span class="aHeader1">Raids</span><br><br>
-							<a class="button aButton1" href="raids">
+							<a class="button aButton1" href="raids.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
 						<div class="aColumn aimg2">
 							<span class="aHeader2">Nightfalls</span><br><br>
-							<a class="button aButton2" href="nightfalls">
+							<a class="button aButton2" href="nightfalls.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
 						<div class="aColumn aimg3">
 							<span class="aHeader1">Trials</span><br><br>
-							<a class="button aButton3" href="trials">
+							<a class="button aButton3" href="trials.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
@@ -111,19 +111,19 @@
 					<div class="row">
 						<div class="aColumn aimg4">
 							<span class="aHeader2">Dungeons</span><br><br>
-							<a class="button aButton4" href="dungeons">
+							<a class="button aButton4" href="dungeons.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
 						<div class="aColumn aimg5">
 							<span class="aHeader1">Exotics</span><br><br>
-							<a class="button aButton5" href="exotics">
+							<a class="button aButton5" href="exotics.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
 						<div class="aColumn aimg6">
 							<span class="aHeader1">Quests</span><br><br>
-							<a class="button aButton6" href="quests">
+							<a class="button aButton6" href="quests.php>
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
