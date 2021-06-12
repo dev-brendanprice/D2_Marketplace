@@ -160,6 +160,9 @@ input:focus {
 
 .userDropdown {
     margin: 0;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 35px;
 }
 
 .header {

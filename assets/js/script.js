@@ -90,6 +90,6 @@ function signOut() {
     });
 }
 
-function openInNewWindow() {
-    window.open('https://www.bungie.net/en/oauth/authorize?client_id="35544"&response_type=code', 'popup', 'width=600,height=600'); return false;
-}
+// function openInNewWindow() {
+//     window.open('https://www.bungie.net/en/oauth/authorize?client_id="35544"&response_type=code', 'popup', 'width=600,height=600'); return false;
+// }

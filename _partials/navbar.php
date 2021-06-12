@@ -62,11 +62,11 @@
                                     <!-- Get User Icon -->
                                     <?php
                                     
-                                    $encoded = md5('priceroan2@gmail.com'); // users email
-                                    $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/images/default.png'); // default image
+                                    $encoded = md5('BP7714.bp@gmail.com'); // users email
+                                    $default = urlencode('https://cdn.discordapp.com/avatars/326058698067804173/a_b954cd20679e225a11bb6ed1995e76a8.gif?size=128'); // default image
                                     ?>
                                     <!-- <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>" /> -->
-                                    <img id="userIcon" src="https://cdn.discordapp.com/avatars/360832097495285761/7c3fb2916acde7616187041b8e8a6f41.webp">
+                                    <img id="userIcon" src="https://cdn.discordapp.com/avatars/326058698067804173/a_b954cd20679e225a11bb6ed1995e76a8.gif?size=128">
                                     <!-- <img id="userIcon" src="./images/discord.png"> -->
                                     <!-- End -->
 
@@ -79,9 +79,9 @@
                                             <li>
                                                 <div id="my-signin2"></div>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a target="_blank" href="https://www.bungie.net/en/oauth/authorize?client_id='35544'&response_type=code"><button>Sign In with Bungee</button></a>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </li>

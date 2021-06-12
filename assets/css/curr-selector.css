@@ -159,11 +159,11 @@ body {
 }
 .sl-nav2 li:hover .triangle2 {
   position: absolute;
-  top: 32px;
-  right: 30px;
-  z-index:10;
-  height: 14px;
-  overflow:hidden;
+  top: 33px;
+  right: -10px;
+  z-index: 10;
+  height: 10px;
+  overflow: hidden;
   width: 30px;
   background: transparent;
 }
