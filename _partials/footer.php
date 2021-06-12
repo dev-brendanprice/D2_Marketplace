@@ -63,7 +63,7 @@
 			<div id="riBott">
 				<a href="terms-of-service/">Privacy Policy</a>
 				<br><a href="terms-of-service/">Refund Policy</a>
-				<br><a href="terms-of-service/cookies-policy">Cookies Policy</a>
+				<br><a href="terms-of-service/cookies-policy.php">Cookies Policy</a>
 			</div>
 
 			<div id="sicons">
