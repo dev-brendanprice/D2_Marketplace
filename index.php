@@ -123,7 +123,7 @@
 						</div>
 						<div class="aColumn aimg6">
 							<span class="aHeader1">Quests</span><br><br>
-							<a class="button aButton6" href="quests.php>
+							<a class="button aButton6" href="quests.php">
 								<span class="aText">View<i style="padding-left: 6px;" class="fas fa-arrow-right"></i></span>
 							</a>
 						</div>
