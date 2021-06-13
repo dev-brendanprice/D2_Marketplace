@@ -8,7 +8,7 @@
             <div id="navColumn">
                 <div id="searchColumn">
                     <div id="searchBox">
-                        <form action="search">
+                        <form action="sitemap">
                             <i class="fas fa-search gray"></i>
                             <input name="q" type="text" id="search" placeholder="Search" onblur="this.placeholder = 'Search'">
                             <button class="fas fa-arrow-right gray" style="background-color:none; background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer; outline:none;" id="searchBoxEnter" type="submit"></button>
