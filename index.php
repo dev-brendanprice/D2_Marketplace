@@ -5,9 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Google API -->
-	<meta name="google-signin-client_id" content="166145593733-e55n2qulup3q6kgmnmbgttqfvtg0voai.apps.googleusercontent.com.apps.googleusercontent.com">
-
 	<title>Store - Home</title>
 
 	<!-- Embed Configs -->
@@ -142,7 +139,6 @@
 
 	<script src="assets/js/currency-selector.js"></script>
 	<script src="assets/js/script.js"></script>
-	<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 	<!-- <script src="https://cdn.surge-networks.co.uk/assets/javascript/SmoothScroll.js"></script> -->
 	<noscript>Uh Oh! Sorry, it seems your web browser doesn't use JavaScript, This website won't work as normal. Please use another web browser or try again later...</noscript>
 
