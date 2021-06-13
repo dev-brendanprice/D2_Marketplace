@@ -58,13 +58,12 @@
 
                 <h1 style="color:white">Sitemap Overview</h1>
 
-                <?php error_reporting(0);
-                $files = scandir('.');
+                <?php
                 $q = $_GET['q'];
 
                 if ($q) {
 
-                    foreach ($files as $fileName) {
+                    foreach (scandir('.') as $fileName) {
                         if (str_contains($fileName, ".php")) {
 
                             $fileName2 = str_replace(".php", "", $fileName);
@@ -82,7 +81,7 @@
                     }
                 } else {
 
-                    foreach ($files as $fileName) {
+                    foreach (scandir('.') as $fileName) {
                         if (str_contains($fileName, ".php")) {
 
                             $fileName2 = str_replace(".php", "", $fileName);
@@ -96,10 +95,6 @@
                         }
                     }
                     //
-                }
-
-                if (!str_contains($file, $q) || !str_contains($fileName, $q) || !str_contains($fileName2, $q)) {
-                    echo "<br><x style='color:red'>Nothing was found for that search query!</x>";
                 }
 
                 ?>
