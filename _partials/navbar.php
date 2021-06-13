@@ -57,22 +57,44 @@
                             <ul>
                                 <li>
 
-                                    <!-- Get User Icon -->
-                                    <?php
-                                    $encoded = md5('BP7714.bp@gmail.com'); // users email
-                                    $default = urlencode('https://cdn.surge-networks.co.uk/assets/content/uploads/noimg.png'); // default image
-                                    ?>
-                                    <img id="userIcon" src="https://www.gravatar.com/avatar/<?php echo $encoded; ?>?default=<?php echo $default; ?>">
-                                    <!-- End -->
+                                    <!-- Google Scripts -->
+                                    <meta name="google-signin-client_id" content="912277455251-namalire3oaqq9vl35aid226t65l8mlb.apps.googleusercontent.com">
+                                    <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+                                    <script>
+                                        function onSignIn(googleUser) {
+                                            var profile = googleUser.getBasicProfile();
+                                            console.log('User is ' + JSON.stringify(profile));
+
+                                            var element = document.querySelector('#content')
+                                            element.innerText = "Signed as " + profile.getName(); // print google username and
+                                            // Use profile.getEmail() to get users email
+
+                                            document.getElementById('userIcon').src = profile.getImageUrl() // Turn circle icon on navbar into google pfp
+                                        }
+
+                                        function signOut() {
+                                            gapi.auth2.getAuthInstance().signOut().then(function() { // signs out
+                                                location.reload(); // reloads page after signout
+                                            })
+                                        }
+                                    </script>
+                                    <!-- End Google Scripts -->
+
+                                    <!-- Get User Icon -->
+                                    <img id="userIcon" src="https://cdn.surge-networks.co.uk/assets/content/uploads/noimg.png">
+
+                                    <!-- End -->
                                     <div class="userDropdown">
                                         <div class="triangle2"></div>
                                         <ul>
+                                            <li><button onclick="signOut()">Sign Out</button></li>
                                             <li>
-                                                <button onclick="setCookie()" nclick="signOut();">Sign out (Google)</button>
+                                                <!-- Google Login -->
+                                                <div class="g-signin2" data-onsuccess="onSignIn"></div>
                                             </li>
                                             <li>
-                                                <div id="my-signin2"></div>
+                                                <div id="content"></div>
                                             </li>
                                             <!-- <li>
                                                 <a target="_blank" href="https://www.bungie.net/en/oauth/authorize?client_id='35544'&response_type=code"><button>Sign In with Bungee</button></a>
