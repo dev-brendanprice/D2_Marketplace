@@ -82,7 +82,7 @@
                                     <!-- End Google Scripts -->
 
                                     <!-- Get User Icon -->
-                                    <img id="userIcon" src="https://cdn.surge-networks.co.uk/assets/content/uploads/noimg.png">
+                                    <img id="userIcon" src="images\pfp.png">
 
                                     <!-- End -->
                                     <div class="userDropdown">
